@@ -3,8 +3,11 @@
 using namespace System;
 
 namespace LibraryAddNumbers {
-	public ref class Class1
+	public ref class SumNumber
 	{
-		// TODO: Добавьте сюда свои методы для этого класса.
+		public static double Add(double a, double b)
+		{
+			return a + b;
+		}
 	};
 }
